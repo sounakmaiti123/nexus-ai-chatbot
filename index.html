@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexus AI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="app">
+
+  <!-- ===== SIDEBAR START ===== -->
+  <aside class="sidebar">
+
+    <div class="brand">
+  <div class="logo">
+  <img src="assets/nexus-logo.png" alt="Nexus AI Logo">
+</div>
+
+  <div class="brand-text">
+    <span class="title">Nexus AI</span>
+    <span class="subtitle">AI Assistant</span>
+  </div>
+</div>
+
+    <button class="new-chat">+ New Chat</button>
+
+    <div class="history">
+  <p class="history-title">Recent</p>
+
+  <div class="history-item active">
+    <span>New conversation</span>
+  </div>
+
+  <div class="history-item">
+    <span>Project ideas</span>
+  </div>
+
+  <div class="history-item">
+    <span>Explain ML</span>
+  </div>
+</div>
+
+<div class="sidebar-divider"></div>
+
+    <div class="sidebar-footer">
+  <span class="settings">⚙ Settings</span>
+</div>
+
+
+  </aside>
+  <!-- ===== SIDEBAR END ===== -->
+
+  <!-- ===== CHAT AREA START ===== -->
+  <main class="chat-area">
+
+    <!-- Top Header -->
+    <header class="chat-header">
+
+      <div>
+        <h3>Nexus AI</h3>
+        <span class="status">● Online</span>
+      </div>
+      <span class="model">GPT-4</span>
+    </header>
+
+    <!-- Messages / Empty State -->
+    <div class="chat-box empty">
+      <div class="empty-state">
+        <h1>Welcome to Nexus AI</h1>
+        <p>Ask anything. Build anything.</p>
+
+        <div class="suggestions">
+          <div>💡 Brainstorm startup ideas</div>
+          <div>💻 Write clean code</div>
+          <div>📄 Summarize documents</div>
+          <div>✍️ Creative writing</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Input Area -->
+   <div class="input-wrapper">
+  <div class="input-area">
+<button class="icon icon-attach" title="Attach">
+  <svg viewBox="0 0 24 24">
+    <path d="M16.5 6.5L9 14a3 3 0 104 4l7.5-7.5a5 5 0 10-7-7L5 11"/>
+  </svg>
+</button>
+
+    <input
+      type="text"
+      placeholder="Ask Nexus anything..."
+    />
+
+    <button class="icon icon-mic" title="Voice">
+  <svg viewBox="0 0 24 24">
+    <path d="M12 14a3 3 0 003-3V5a3 3 0 00-6 0v6a3 3 0 003 3z"/>
+    <path d="M19 11a7 7 0 01-14 0"/>
+    <path d="M12 19v4"/>
+  </svg>
+</button>
+
+<button class="icon icon-send" title="Send">
+  <svg viewBox="0 0 24 24">
+    <path d="M22 2L11 13"/>
+    <path d="M22 2L15 22l-4-9-9-4z"/>
+  </svg>
+</button>
+
+  </div>
+</div>
+
+  </main>
+  <!-- ===== CHAT AREA END ===== -->
+
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
